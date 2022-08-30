@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@import './styles/colors.scss';
+@import './styles/typography.scss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  // width: 500px;
+  background-color: $light-cream;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headline-color {
+  color: $galactic-blue
+}
